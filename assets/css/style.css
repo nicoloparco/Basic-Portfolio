@@ -18,20 +18,22 @@ nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 22px;
     margin-left: 200px;
+    border-bottom: solid 2px #777777;
+    height: 80px;
 }
 
 .links a {
     color:#777777;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
-    opacity: .8;   
+    opacity: .8;
 }
 
 .links li {
     list-style: none;
     display: inline-block;
     margin: 22px 42px;
-    padding-right: 20px;
+    
     text-align: center;
 }
 
@@ -41,20 +43,17 @@ nav {
 }
 
 #main-info {
-    display: inline-block;
-    margin-left: 100px;
     width: 50%;
-    padding: 22px;
-    margin: 44px 40px 44px 0px;
     background-color: white;
     border: solid 2px #777777;
+    padding: 12px;
+    margin-left: 25%;
+    margin-top: 40px;
     
 }
 
 #main-info p {
     color: #777777;
-    margin: 0px 22px 0px 22px;
-    padding: 6px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
 }
@@ -70,13 +69,15 @@ h2 {
 }
 
 body {
-    background:
-    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-    background-color: #131313;
-      }
+    background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%), 
+                      linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%), 
+                      linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
+                      radial-gradient(gray 2px, transparent 0);
+    background-size: 30px 30px, 30px 30px;
+}
+
+header {
+    background-color: white;
+    height: 80px;
+    border-bottom: solid 2px #777777;
 }
